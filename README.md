@@ -71,5 +71,27 @@ _By the end of this level, the learner should know_
                     2. Initialize a Git repository.<br>
                     3. Push the project you done to a new GitHub repository.<br>
                     </p>
+                    <a href="https://forms.gle/BwPXaQpgtknzVJgM6">Form Level 0 : Step 2</a>
             </td>
         </tr>
+        <tr>
+            <th>Step 3</th>
+            <td>
+                <h5>🎯 Topics</h5>
+                <ul>
+                    <li>Network Fundamentals for Web Developers</li>
+                    <li>DNS Servers</li>
+                </ul>
+                <h5>🎞️ Resources</h5>
+                <ul>
+                    <li><a href="https://www.youtube.com/playlist?list=PLNE3WjwctlOy1ekMfZl9AbLyFivSgsfml">Networking & DNS</a></li>
+                </ul>
+                <h5>📃 Task</h5>
+                <p>
+                  1. What is the main function of DNS in a network?<br>
+                  2. What is the difference between HTTP and HTTPS?<br>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
