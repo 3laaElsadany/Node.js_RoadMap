@@ -45,7 +45,7 @@ _By the end of this level, the learner should know_
                     <li><a href="https://www.youtube.com/watch?v=_IKTGQosYMo">Elzero Web School (Chrome Dev Tools)</a></li>
                 </ul>
                 <h5>📃 Task</h5>
-                <p>Make a page using HTML, CSS and Bootstrap like Portfolio</p>
+                <p>1. Make a page using HTML, CSS and Bootstrap like Portfolio</p>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7l3rawKD3yi-ESHKG5GRxQkOugSl7KOyoakTqp2sEdkcljQ/viewform">Form Level 0 : Step 1</a>
             </td>
         </tr>
@@ -91,7 +91,58 @@ _By the end of this level, the learner should know_
                   1. What is the main function of DNS in a network?<br>
                   2. What is the difference between HTTP and HTTPS?<br>
                 </p>
+                 <a href="https://forms.gle/iUa9ASyPdf9cqZmH8">Form Level 0 : Step 3</a>
             </td>
         </tr>
     </tbody>
 </table>
+
+
+### Level 1
+
+#### Objectives
+_By the end of this level, the learner should learn_
+* **JavaScript**: Syntax, Features, OOP, Asynchronous Programming
+* **NodeJS**: Development, Packages, Modules, Processes, `http` module
+* **Express**: Basics, Middlewares
+* **MongoDB**: CRUD Operations, Integration with `express`
+
+#### Plan
+<table>
+    <thead>
+        <tr>
+            <th>Phase</th>
+            <th>Content</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Step 1</th>
+            <td>
+                <h5>🎯 Topics</h5>
+                <ul>
+                    <li>What is JavaScript</li>
+                    <li>Variables, DataTypes and Operators</li>
+                    <li>Numbers and Strings Methods</li>
+                </ul>
+                <h5>🎞️ Resources</h5>
+                <ul>
+                    <li><a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">Elzero Web School</a> [1:30]</li>
+                </ul>
+                <h5>📃 Task</h5>
+                   <p>
+                        <strong>Task 1: Variables and Data Types</strong><br>
+                        1. Create a new file named <code>variables.js</code>.<br>
+                        2. Declare three variables: your name (string), your age (number), and a boolean indicating if you're a student.<br>
+                        3. Use <code>console.log()</code> to print a message like: "My name is Ali, I am 22 years old. Student: true"<br><br>
+                        <strong>Task 2: Operators and Expressions</strong><br>
+                        1. Create a new file named <code>math.js</code>.<br>
+                        2. Declare two number variables and perform addition, subtraction, multiplication, division, and modulus.<br>
+                        3. Log the results clearly using <code>console.log()</code>.<br><br>
+                        <strong>Task 3: String Methods</strong><br>
+                        1. Create a new file named <code>strings.js</code>.<br>
+                        2. Define a string variable and apply at least 5 string methods (<code>.length</code>, <code>.toUpperCase()</code>, <code>.slice()</code>, <code>.includes()</code>, <code>.replace()</code>).<br>
+                        3. Combine two methods in one line and log the output.<br>
+                    </p>
+            </td>
+        </tr>
