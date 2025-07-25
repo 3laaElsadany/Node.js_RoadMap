@@ -46,7 +46,7 @@ _By the end of this level, the learner should know_
                 </ul>
                 <h5>📃 Task</h5>
                 <p>1. Make a page using HTML, CSS and Bootstrap like Portfolio</p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7l3rawKD3yi-ESHKG5GRxQkOugSl7KOyoakTqp2sEdkcljQ/viewform">Form Level 0 : Step 1</a>
+                <a href="https://forms.gle/aGfQPnLS6pAxysUJ9">Form Level 0 : Step 1</a>
             </td>
         </tr>
         <tr>
