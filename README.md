@@ -144,5 +144,62 @@ _By the end of this level, the learner should learn_
                         2. Define a string variable and apply at least 5 string methods (<code>.length</code>, <code>.toUpperCase()</code>, <code>.slice()</code>, <code>.includes()</code>, <code>.replace()</code>).<br>
                         3. Combine two methods in one line and log the output.<br>
                     </p>
+                <a href="https://forms.gle/FLRPGNgw4YMU1Pm28">Form Level 1 : Step 1</a>
+            </td>
+        </tr>
+           <tr>
+            <td>Step 2</td>
+            <td>
+                <h5>🎯 Topics</h5>
+                <ul>
+                    <li>Arrays and Array Methods</li>
+                    <li>Controlling Flow (Conditional Statements)</li>
+                    <li>Controlling Flow (Iteration and Repeatition)</li> 
+                </ul>
+                <h5>🎞️ Resources</h5>
+                <ul>
+                    <li><a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">Elzero Web School</a> [31:56]</li>
+                </ul>
+                <h5>📃 Task</h5>
+                <p>
+                    <strong>Task 1: Strings, Arrays, and Comparison Operators</strong><br>
+                    What will be the output of the following JavaScript code?
+                </p>
+                <pre><code>
+let name = "Elzero";
+let arr = ["E", "l", "z", "e", "r", "o"];
+console.log(name.length === arr.length && arr.join("") === name);
+                </code></pre>
+                A) true<br>
+                B) false<br>
+                C) undefined<br>
+                D) Error<br><br>
+                <p>
+                    <strong>Task 2: Loops and Break Statement</strong><br>
+                    What is the expected output of the following code?
+                </p>
+                <pre><code>
+let numbers = [10, 20, 30, 40];
+let result = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] === 30) break;
+  result += numbers[i];
+}
+
+console.log(result);
+                </code></pre>
+                A) 30<br>
+                B) 60<br>
+                C) 70<br>
+                D) 100<br><br>
+                <p>
+                    <strong>Task 3: Switch Statement vs Nested If</strong><br>
+                    Which of the following statements is correct about the difference between a Switch Statement and Nested If in JavaScript?
+                </p>
+                A) switch is always faster than if in all cases<br>
+                B) switch is used to compare multiple values of a single variable in a cleaner way than nested if<br>
+                C) switch cannot handle string values<br>
+                D) if is used only with numbers, while switch is used with strings<br>
             </td>
         </tr>
