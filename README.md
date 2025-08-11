@@ -201,5 +201,70 @@ console.log(result);
                 B) switch is used to compare multiple values of a single variable in a cleaner way than nested if<br>
                 C) switch cannot handle string values<br>
                 D) if is used only with numbers, while switch is used with strings<br>
+                <a href="https://forms.gle/J3UCgykGnjfW7hCPA">Form Level 1 : Step 2</a>
+            </td>
+        </tr>
+        <tr>
+            <th>Step 3</th>
+            <td>
+                <h5>🎯 Topics</h5>
+                <ul>
+                    <li>Functions and Callbacks</li>
+                    <li>Objects</li>
+                    <li>Higher Order Functions</li>
+                    <li>Hoisting</li>
+                </ul>
+                <h5>🎞️ Resources</h5>
+                <ul>
+                    <li><a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">Elzero Web School</a> [57:85]</li>
+                    <li><a href="https://www.youtube.com/watch?v=XrCMAmxGA7o">Shadow Coding (Hoisting)</a></li>
+                </ul>
+                <h5>📃 Task</h5>
+               <p>
+    <strong>Task 1: Functions and Default Parameters</strong><br>
+    What will be the output of the following JavaScript code?
+</p>
+<pre><code>
+function greet(name = "Guest") {
+  return "Hello " + name;
+}
+console.log(greet());
+console.log(greet("Osama"));
+</code></pre>
+A) Hello Guest, Hello Osama<br>
+B) Hello , Hello Osama<br>
+C) undefined, Hello Osama<br>
+D) Error<br><br>
+<p>
+    <strong>Task 2: Arrow Functions and Scope</strong><br>
+    What will be the output of the following JavaScript code?
+</p>
+<pre><code>
+let x = 10;
+const test = () => {
+  let x = 20;
+  return x;
+};
+console.log(test());
+console.log(x);
+</code></pre>
+A) 20, 20<br>
+B) 20, 10<br>
+C) 10, 20<br>
+D) undefined, 10<br><br>
+<p>
+    <strong>Task 3: Higher Order Functions - Map and Filter</strong><br>
+    What will be the output of the following JavaScript code?
+</p>
+<pre><code>
+let numbers = [1, 2, 3, 4, 5];
+let doubled = numbers.map(num => num * 2);
+let filtered = doubled.filter(num => num > 5);
+console.log(filtered);
+</code></pre>
+A) [6, 8, 10]<br>
+B) [2, 4, 6, 8, 10]<br>
+C) [5, 6, 7, 8, 9, 10]<br>
+D) []<br>
             </td>
         </tr>
