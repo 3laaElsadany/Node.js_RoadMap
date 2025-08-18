@@ -266,5 +266,62 @@ A) [6, 8, 10]<br>
 B) [2, 4, 6, 8, 10]<br>
 C) [5, 6, 7, 8, 9, 10]<br>
 D) []<br>
+<a href="https://forms.gle/uMjJgeKTqaXiyQch6">Form Level 1 : Step 3</a>
+            </td>
+        </tr>
+        <tr>
+            <th>Step 4</th>
+            <td>
+                <h5>🎯 Topics</h5>
+                <ul>
+                    <li>Objects and Arrays Destructing, Spread Operator</li>
+                    <li>Some Data Structures in JS (Map, Set, ...)</li>
+                    <li>Array Advanced Methods</li>
+                    <li>Regular Expressions</li>
+                    <li>Closures</li>
+                </ul>
+                <h5>🎞️ Resources</h5>
+                <ul>
+                    <li><a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">Elzero Web School</a> [115:146]</li>
+                    <li><a href="https://www.youtube.com/watch?v=a2jVZ8bUm48">Shadow Coding (Closure)</a></li>
+                </ul>
+                <h5>📃 Task</h5>
+                <p>
+  <strong>Task 1: Array Destructuring</strong><br>
+  What will be the output of the following JavaScript code?
+</p>
+<pre><code>
+let [x, , y] = [100, 200, 300];
+console.log(x, y);
+</code></pre>
+A) 100 200<br>
+B) 100 300<br>
+C) 200 300<br>
+D) 100 undefined<br><br>
+<p>
+  <strong>Task 2: Set and Unique Values</strong><br>
+  What will be the output of the following JavaScript code?
+</p>
+<pre><code>
+let numbers = new Set([1, 2, 2, 3, 4]);
+console.log(numbers.size);
+</code></pre>
+A) 3<br>
+B) 4<br>
+C) 5<br>
+D) 2<br><br>
+<p>
+  <strong>Task 3: Regular Expressions - Quantifiers</strong><br>
+  What will be the output of the following JavaScript code?
+</p>
+<pre><code>
+let text = "aaa bb ccc";
+let regex = /a+/g;
+console.log(text.match(regex));
+</code></pre>
+A) ["aaa"]<br>
+B) ["a", "a", "a"]<br>
+C) ["aaa", "a"]<br>
+D) ["aaa", "ccc"]<br><br>
             </td>
         </tr>
