@@ -322,6 +322,75 @@ console.log(text.match(regex));
 A) ["aaa"]<br>
 B) ["a", "a", "a"]<br>
 C) ["aaa", "a"]<br>
-D) ["aaa", "ccc"]<br><br>
+D) ["aaa", "ccc"]<br>
+                <a href="https://forms.gle/tp2Dx2v4RFZKbs6L8">Form Level 1 : Step 4</a>
+            </td>
+        </tr>
+        <tr>
+            <th>Step 5</th>
+            <td>
+                <h5>🎯 Topics</h5>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Date Objects</li>
+                    <li>Generator Functions</li>
+                    <li>Modules</li>
+                </ul>
+                <h5>🎞️ Resources</h5>
+                <ul>
+                    <li><a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">Elzero Web School</a> [147:168]</li>
+                </ul>
+                <h5>📃 Task</h5>
+                <p>
+  <strong>Task 1: OOP - Class Inheritance</strong><br>
+  What will be the output of the following JavaScript code?
+</p>
+<pre><code>
+class Animal {
+  speak() {
+    return "I am an animal";
+  }
+}
+class Dog extends Animal {
+  speak() {
+    return "I am a dog";
+  }
+}
+let pet = new Dog();
+console.log(pet.speak());
+</code></pre>
+A) I am an animal<br>
+B) I am a dog<br>
+C) undefined<br>
+D) Error<br><br>
+<p>
+  <strong>Task 2: Date Object</strong><br>
+  What will the following code print if today is January 1, 2025?
+</p>
+<pre><code>
+let d = new Date("2025-01-01");
+console.log(d.getFullYear(), d.getMonth());
+</code></pre>
+A) 2025 1<br>
+B) 2024 0<br>
+C) 2025 0<br>
+D) 2025 12<br><br>
+<p>
+  <strong>Task 3: Generator Function</strong><br>
+  What will be the output of the following JavaScript code?
+</p>
+<pre><code>
+function* genNumbers() {
+  yield 1;
+  yield 2;
+  yield 3;
+}
+let g = genNumbers();
+console.log(g.next().value, g.next().value);
+</code></pre>
+A) 1 2<br>
+B) 2 3<br>
+C) 1 3<br>
+D) undefined undefined<br>
             </td>
         </tr>
