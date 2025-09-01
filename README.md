@@ -392,5 +392,75 @@ A) 1 2<br>
 B) 2 3<br>
 C) 1 3<br>
 D) undefined undefined<br>
+                <a href="https://forms.gle/tYefYH2heSUMAbEc7">Form Level 1 : Step 5</a>
+            </td>
+        </tr>
+        <tr>
+            <th>Step 6</th>
+            <td>
+                <h5>🎯 Topics</h5>
+                <ul>
+                    <li>
+                        <strong>Asynchronous Programming</strong>
+                        <ul>
+                            <li>Event Loop and Callback Queue</li>
+                            <li>Promises and Promise Chaining</li>
+                            <li>Callback Hells</li>
+                            <li>Async/Await</li>
+                        </ul>
+                    </li>
+                    <li>JSON</li>
+                    <li>Error Handling</li>
+                </ul>
+                <h5>🎞️ Resources</h5>
+                <ul>
+                    <li><a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">Elzero Web School</a> [169:188]</li>
+                </ul>
+                <h5>📃 Task</h5>
+                <p>
+  <strong>Task 1: JSON - Parse and Stringify</strong><br>
+  What will be the output of the following JavaScript code?
+</p>
+<pre><code>
+let obj = { name: "Alaa", age: 20 };
+let str = JSON.stringify(obj);
+let newObj = JSON.parse(str);
+console.log(typeof str, newObj.name);
+</code></pre>
+A) object Alaa<br>
+B) string Alaa<br>
+C) string undefined<br>
+D) object undefined<br><br>
+<p>
+  <strong>Task 2: Promise - Then and Catch</strong><br>
+  What will the following code print?
+</p>
+<pre><code>
+let p = new Promise((resolve, reject) => {
+  reject("Error happened");
+});
+p.then(res => console.log("Success:", res))
+ .catch(err => console.log("Failed:", err));
+</code></pre>
+A) Success: Error happened<br>
+B) Failed: Error happened<br>
+C) undefined<br>
+D) Error<br><br>
+<p>
+  <strong>Task 3: Async/Await with Fetch</strong><br>
+  What will the following code log if the API returns <code>{ message: "Hello" }</code>?
+</p>
+<pre><code>
+async function getData() {
+  let res = await fetch("https://api.example.com/data");
+  let data = await res.json();
+  console.log(data.message);
+}
+getData();
+</code></pre>
+A) Hello<br>
+B) { message: "Hello" }<br>
+C) undefined<br>
+D) Error<br>
             </td>
         </tr>
