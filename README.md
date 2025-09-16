@@ -44,9 +44,9 @@ _By the end of this level, the learner should know_
                     <li><a href="https://www.youtube.com/watch?v=65EFKUpYk2A&t=1602s">Tarmeez (Bootstrap Crash Course) (optional)</a></li>
                     <li><a href="https://www.youtube.com/watch?v=_IKTGQosYMo">Elzero Web School (Chrome Dev Tools)</a></li>
                 </ul>
-                <h5>📃 Task</h5>
+<!--                 <h5>📃 Task</h5>
                 <p>1. Make a page using HTML, CSS and Bootstrap like Portfolio</p>
-                <a href="https://forms.gle/aGfQPnLS6pAxysUJ9">Form Level 0 : Step 1</a>
+                <a href="https://forms.gle/aGfQPnLS6pAxysUJ9">Form Level 0 : Step 1</a> -->
             </td>
         </tr>
         <tr>
@@ -65,13 +65,13 @@ _By the end of this level, the learner should know_
                     <li><a href="https://www.youtube.com/watch?v=rQKJFlsifR8">GeekHood (What is a database?)</a></li>
                     <li><a href="https://www.youtube.com/watch?v=WWazrq7ZC8E">JobStack (SQL vs NoSQL Databases)</a></li>
                 </ul>
-                 <h5>📃 Task</h5>
+<!--                  <h5>📃 Task</h5>
                     <p>
                     1. Use the terminal to create a new folder for your project.<br>
                     2. Initialize a Git repository.<br>
                     3. Push the project you done to a new GitHub repository.<br>
                     </p>
-                    <a href="https://forms.gle/BwPXaQpgtknzVJgM6">Form Level 0 : Step 2</a>
+                    <a href="https://forms.gle/BwPXaQpgtknzVJgM6">Form Level 0 : Step 2</a> -->
             </td>
         </tr>
         <tr>
@@ -86,12 +86,12 @@ _By the end of this level, the learner should know_
                 <ul>
                     <li><a href="https://www.youtube.com/playlist?list=PLNE3WjwctlOy1ekMfZl9AbLyFivSgsfml">Networking & DNS</a></li>
                 </ul>
-                <h5>📃 Task</h5>
+<!--                 <h5>📃 Task</h5>
                 <p>
                   1. What is the main function of DNS in a network?<br>
                   2. What is the difference between HTTP and HTTPS?<br>
                 </p>
-                 <a href="https://forms.gle/iUa9ASyPdf9cqZmH8">Form Level 0 : Step 3</a>
+                 <a href="https://forms.gle/iUa9ASyPdf9cqZmH8">Form Level 0 : Step 3</a> -->
             </td>
         </tr>
     </tbody>
@@ -129,7 +129,7 @@ _By the end of this level, the learner should learn_
                 <ul>
                     <li><a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">Elzero Web School</a> [1:30]</li>
                 </ul>
-                <h5>📃 Task</h5>
+<!--                 <h5>📃 Task</h5>
                    <p>
                         <strong>Task 1: Variables and Data Types</strong><br>
                         1. Create a new file named <code>variables.js</code>.<br>
@@ -144,7 +144,7 @@ _By the end of this level, the learner should learn_
                         2. Define a string variable and apply at least 5 string methods (<code>.length</code>, <code>.toUpperCase()</code>, <code>.slice()</code>, <code>.includes()</code>, <code>.replace()</code>).<br>
                         3. Combine two methods in one line and log the output.<br>
                     </p>
-                <a href="https://forms.gle/FLRPGNgw4YMU1Pm28">Form Level 1 : Step 1</a>
+                <a href="https://forms.gle/FLRPGNgw4YMU1Pm28">Form Level 1 : Step 1</a> -->
             </td>
         </tr>
            <tr>
@@ -160,7 +160,7 @@ _By the end of this level, the learner should learn_
                 <ul>
                     <li><a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">Elzero Web School</a> [31:56]</li>
                 </ul>
-                <h5>📃 Task</h5>
+<!--                 <h5>📃 Task</h5>
                 <p>
                     <strong>Task 1: Strings, Arrays, and Comparison Operators</strong><br>
                     What will be the output of the following JavaScript code?
@@ -181,12 +181,10 @@ console.log(name.length === arr.length && arr.join("") === name);
                 <pre><code>
 let numbers = [10, 20, 30, 40];
 let result = 0;
-
 for (let i = 0; i < numbers.length; i++) {
   if (numbers[i] === 30) break;
   result += numbers[i];
 }
-
 console.log(result);
                 </code></pre>
                 A) 30<br>
@@ -201,7 +199,7 @@ console.log(result);
                 B) switch is used to compare multiple values of a single variable in a cleaner way than nested if<br>
                 C) switch cannot handle string values<br>
                 D) if is used only with numbers, while switch is used with strings<br>
-                <a href="https://forms.gle/J3UCgykGnjfW7hCPA">Form Level 1 : Step 2</a>
+                <a href="https://forms.gle/J3UCgykGnjfW7hCPA">Form Level 1 : Step 2</a> -->
             </td>
         </tr>
         <tr>
@@ -219,7 +217,7 @@ console.log(result);
                     <li><a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">Elzero Web School</a> [57:85]</li>
                     <li><a href="https://www.youtube.com/watch?v=XrCMAmxGA7o">Shadow Coding (Hoisting)</a></li>
                 </ul>
-                <h5>📃 Task</h5>
+<!--                 <h5>📃 Task</h5>
                <p>
     <strong>Task 1: Functions and Default Parameters</strong><br>
     What will be the output of the following JavaScript code?
@@ -266,7 +264,7 @@ A) [6, 8, 10]<br>
 B) [2, 4, 6, 8, 10]<br>
 C) [5, 6, 7, 8, 9, 10]<br>
 D) []<br>
-<a href="https://forms.gle/uMjJgeKTqaXiyQch6">Form Level 1 : Step 3</a>
+<a href="https://forms.gle/uMjJgeKTqaXiyQch6">Form Level 1 : Step 3</a> -->
             </td>
         </tr>
         <tr>
@@ -285,7 +283,7 @@ D) []<br>
                     <li><a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">Elzero Web School</a> [115:146]</li>
                     <li><a href="https://www.youtube.com/watch?v=a2jVZ8bUm48">Shadow Coding (Closure)</a></li>
                 </ul>
-                <h5>📃 Task</h5>
+<!--                 <h5>📃 Task</h5>
                 <p>
   <strong>Task 1: Array Destructuring</strong><br>
   What will be the output of the following JavaScript code?
@@ -323,7 +321,7 @@ A) ["aaa"]<br>
 B) ["a", "a", "a"]<br>
 C) ["aaa", "a"]<br>
 D) ["aaa", "ccc"]<br>
-                <a href="https://forms.gle/tp2Dx2v4RFZKbs6L8">Form Level 1 : Step 4</a>
+                <a href="https://forms.gle/tp2Dx2v4RFZKbs6L8">Form Level 1 : Step 4</a> -->
             </td>
         </tr>
         <tr>
@@ -340,7 +338,7 @@ D) ["aaa", "ccc"]<br>
                 <ul>
                     <li><a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">Elzero Web School</a> [147:168]</li>
                 </ul>
-                <h5>📃 Task</h5>
+<!--                 <h5>📃 Task</h5>
                 <p>
   <strong>Task 1: OOP - Class Inheritance</strong><br>
   What will be the output of the following JavaScript code?
@@ -392,7 +390,7 @@ A) 1 2<br>
 B) 2 3<br>
 C) 1 3<br>
 D) undefined undefined<br>
-                <a href="https://forms.gle/tYefYH2heSUMAbEc7">Form Level 1 : Step 5</a>
+                <a href="https://forms.gle/tYefYH2heSUMAbEc7">Form Level 1 : Step 5</a> -->
             </td>
         </tr>
         <tr>
@@ -416,7 +414,7 @@ D) undefined undefined<br>
                 <ul>
                     <li><a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv">Elzero Web School</a> [169:188]</li>
                 </ul>
-                <h5>📃 Task</h5>
+<!--                 <h5>📃 Task</h5>
                 <p>
   <strong>Task 1: JSON - Parse and Stringify</strong><br>
   What will be the output of the following JavaScript code?
@@ -461,6 +459,22 @@ getData();
 A) Hello<br>
 B) { message: "Hello" }<br>
 C) undefined<br>
-D) Error<br>
+D) Error<br> -->
+            </td>
+        </tr>
+       <tr>
+            <th>Step 7</th>
+            <td>
+                <h5>🎯 Topics</h5>
+                <ul>
+                    <li>Node.js as a development environment</li>
+                    <li>Using http module</li>
+                </ul>
+                <h5>🎞️ Resources</h5>
+                <ul>
+                    <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU">The Net Ninja</a> [1:5]</li>
+                    <li><a href="https://www.youtube.com/playlist?list=PL55RiY5tL51oGJorjEgl6NVeDbx_fO5jR">Academind</a> [1:6]</li>
+                    <li><a href="https://www.youtube.com/playlist?list=PL0Zuz27SZ-6PFkIxaJ6Xx_X46avTM1aYw">Dave Gray</a> [1:5]</li>
+                </ul>
             </td>
         </tr>
