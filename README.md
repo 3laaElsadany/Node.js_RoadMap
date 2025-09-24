@@ -478,3 +478,22 @@ D) Error<br> -->
                 </ul>
             </td>
         </tr>
+        <tr>
+            <th>Step 8</th>
+            <td>
+                <h5>🎯 Topics</h5>
+                <ul>
+                    <li>Express.js Basics</li>
+                    <li>MongoDB and Mongoose</li>
+                </ul>
+                <h5>🎞️ Resources</h5>
+                <ul>
+                    <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU">The Net Ninja (Express.js & Mongoose)</a> [6:12]</li>
+                    <li><a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA">The Net Ninja (MongoDB)</a></li>
+                    <li><a href="https://www.youtube.com/playlist?list=PL55RiY5tL51oGJorjEgl6NVeDbx_fO5jR">Academind (Express.js & Mongoose)</a> [7:18]</li>
+                    <li><a href="https://www.youtube.com/watch?v=VELru-FCWDM">Academind (MongoDB)</a></li>
+                    <li><a href="https://www.youtube.com/playlist?list=PL0Zuz27SZ-6PFkIxaJ6Xx_X46avTM1aYw">Dave Gray (Express.js)</a> [6:9]</li>
+                    <li><a href="https://www.youtube.com/playlist?list=PL0Zuz27SZ-6PFkIxaJ6Xx_X46avTM1aYw">Dave Gray (MongoDB & Mongoose)</a> [13:15]</li>
+                </ul>
+            </td>
+        </tr>
